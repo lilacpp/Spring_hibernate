@@ -1,0 +1,11 @@
+package com.luv2code.springdemo;
+
+@Component("thatSiilyCoach")
+public class TennisCoach implements Coach {
+
+	@Override
+	public String getDailyWorkOut() {
+		return "Practice tennis";
+	}
+
+}
