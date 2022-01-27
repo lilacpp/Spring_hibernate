@@ -12,6 +12,18 @@
 
 <i>The customer is confirmed: ${customer.firstName} ${customer.lastName}</i>
 
+<br><br>
+
+Free passes: ${customer.freePasses}
+
+<br><br>
+
+Postal Code: ${customer.postalCode}
+
+<br><br>
+
+Course Code: ${customer.courseCode}
+
 </body>
 
 </html>
